@@ -11,110 +11,6 @@ INSERT INTO funcionario (id_funcionario, nome, cargo) VALUES
 (9, 'Ricardo Gomes', 'Supervisor'),
 (10, 'Patricia Rocha', 'Gerente de Contas'),
 
-INSERT INTO funcionario (id_funcionario, nome, cargo) VALUES
-(11, 'Gabriel Martins', 'Gerente de Contas'),
-(12, 'Camila Ferreira', 'Analista Financeiro'),
-(13, 'Rafael Alves', 'Atendente'),
-(14, 'Beatriz Ribeiro', 'Gerente Personalite'),
-(15, 'Thiago Carvalho', 'Supervisor'),
-(16, 'Larissa Mendes', 'Gerente de Contas'),
-(17, 'Felipe Barbosa', 'Gerente de Negocios'),
-(18, 'Amanda Castro', 'Atendente'),
-(19, 'Rodrigo Rocha', 'Analista Financeiro'),
-(20, 'Bruna Dias', 'Gerente de Contas'),
-(21, 'Gustavo Teixeira', 'Gerente Geral'),
-(22, 'Leticia Moreira', 'Atendente'),
-(23, 'Bruno Nunes', 'Gerente Personalite'),
-(24, 'Vanessa Correia', 'Gerente de Contas'),
-(25, 'Diego Cardoso', 'Analista Financeiro'),
-(26, 'Natalia Monteiro', 'Supervisor'),
-(27, 'Leonardo Pinto', 'Atendente'),
-(28, 'Renata Moura', 'Gerente de Negocios'),
-(29, 'Eduardo Araujo', 'Gerente de Contas'),
-(30, 'Tatiana Vieira', 'Analista Financeiro'),
-(31, 'Andre Cavalcanti', 'Atendente'),
-(32, 'Priscila Melo', 'Gerente Personalite'),
-(33, 'Marcelo Freitas', 'Gerente de Contas'),
-(34, 'Daniela Batista', 'Supervisor'),
-(35, 'Vinicius Ramos', 'Atendente'),
-(36, 'Bianca Borges', 'Analista Financeiro'),
-(37, 'Guilherme Campos', 'Gerente de Negocios'),
-(38, 'Sabrina Cunha', 'Gerente de Contas'),
-(39, 'Henrique Duarte', 'Atendente'),
-(40, 'Carolina Farias', 'Gerente Personalite'),
-(41, 'Matheus Azevedo', 'Gerente de Contas'),
-(42, 'Aline Machado', 'Analista Financeiro'),
-(43, 'Pedro Nascimento', 'Supervisor'),
-(44, 'Raquel Pires', 'Atendente'),
-(45, 'Lucas Lopes', 'Gerente de Negocios'),
-(46, 'Jessica Moraes', 'Gerente de Contas'),
-(47, 'Caio Neves', 'Atendente'),
-(48, 'Monique Nogueira', 'Analista Financeiro'),
-(49, 'Vitor Pacheco', 'Gerente Personalite'),
-(50, 'Luana Rezende', 'Gerente de Contas'),
-(51, 'Alexandre Sampaio', 'Gerente Geral'),
-(52, 'Cristiane Santana', 'Atendente'),
-(53, 'Daniel Siqueira', 'Analista Financeiro'),
-(54, 'Fabiana Tavares', 'Supervisor'),
-(55, 'Igor Toledo', 'Gerente de Contas'),
-(56, 'Adriana Vasconcelos', 'Gerente de Negocios'),
-(57, 'Leandro Xavier', 'Atendente'),
-(58, 'Simone Aguiar', 'Gerente Personalite'),
-(59, 'Fabio Andrade', 'Gerente de Contas'),
-(60, 'Elaine Antunes', 'Analista Financeiro'),
-(61, 'Mauricio Barros', 'Atendente'),
-(62, 'Denise Bezerra', 'Supervisor'),
-(63, 'Renato Brito', 'Gerente de Contas'),
-(64, 'Gisele Bueno', 'Gerente de Negocios'),
-(65, 'Sandro Camargo', 'Atendente'),
-(66, 'Viviane Chaves', 'Analista Financeiro'),
-(67, 'Cesar Coelho', 'Gerente Personalite'),
-(68, 'Luciana Cruz', 'Gerente de Contas'),
-(69, 'Paulo Dantas', 'Atendente'),
-(70, 'Silvia Esteves', 'Supervisor'),
-(71, 'Jorge Fernandes', 'Gerente de Contas'),
-(72, 'Marta Figueiredo', 'Analista Financeiro'),
-(73, 'Sergio Fonseca', 'Gerente de Negocios'),
-(74, 'Claudia Franco', 'Atendente'),
-(75, 'Ricardo Garcia', 'Gerente Personalite'),
-(76, 'Sandra Godoy', 'Gerente de Contas'),
-(77, 'Antonio Guerra', 'Atendente'),
-(78, 'Teresa Guimaraes', 'Analista Financeiro'),
-(79, 'Francisco Leal', 'Supervisor'),
-(80, 'Regina Lemos', 'Gerente de Contas'),
-(81, 'Jose Macedo', 'Gerente Geral'),
-(82, 'Maria Magalhaes', 'Atendente'),
-(83, 'Joao Maia', 'Gerente de Negocios'),
-(84, 'Rosa Marques', 'Gerente Personalite'),
-(85, 'Luiz Matos', 'Gerente de Contas'),
-(86, 'Helena Medeiros', 'Analista Financeiro'),
-(87, 'Carlos Meireles', 'Atendente'),
-(88, 'Vera Miranda', 'Supervisor'),
-(89, 'Manoel Morais', 'Gerente de Contas'),
-(90, 'Sonia Mota', 'Analista Financeiro'),
-(91, 'Geraldo Muniz', 'Atendente'),
-(92, 'Rita Paiva', 'Gerente de Negocios'),
-(93, 'Sebastiao Peixoto', 'Gerente Personalite'),
-(94, 'Lourdes Peres', 'Gerente de Contas'),
-(95, 'Raimundo Prado', 'Atendente'),
-(96, 'Irene Queiroz', 'Analista Financeiro'),
-(97, 'Benedito Rangel', 'Supervisor'),
-(98, 'Fatima Sales', 'Gerente de Contas'),
-(99, 'Wilson Serra', 'Atendente'),
-(100, 'Terezinha Soares', 'Gerente de Negocios'),
-(101, 'Nelson Sousa', 'Gerente Personalite'),
-(102, 'Marlene Teixeira', 'Gerente de Contas'),
-(103, 'Valdir Torres', 'Atendente'),
-(104, 'Solange Valenca', 'Analista Financeiro'),
-(105, 'Osvaldo Vargas', 'Supervisor'),
-(106, 'Edna Veloso', 'Gerente de Contas'),
-(107, 'Gilberto Viana', 'Atendente'),
-(108, 'Neusa Vieira', 'Gerente de Negocios'),
-(109, 'Claudio Werneck', 'Gerente Personalite'),
-(110, 'Zuleica Zanin', 'Gerente de Contas');
-
-
-
 -- 2. Inserindo 10 registros em CLIENTE
 INSERT INTO cliente (id_cliente, cpf, nome, email, rua, numero, bairro, cidade, estado, cep, id_gerente) VALUES
 (1, '11122233344', 'Joao Pedro Alves', 'joao.alves@email.com', 'Rua das Flores', 120, 'Centro', 'Franca', 'SP', '14400001', 2),
@@ -192,3 +88,127 @@ INSERT INTO transacao (id_transacao, valor, data_hora, numero_conta) VALUES
 (8, -520.40, '2026-11-05 20:00:00-03', 1007),
 (9, -60.00, '2026-11-10 12:30:00-03', 1008),
 (10, 5000.00, '2026-11-15 15:50:00-03', 1009);
+
+-- 1. Tabela transação --
+DO $$
+DECLARE
+    i INT;
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO transacao (id_transacao, valor, data_hora, id_conta)
+        VALUES (
+            i,
+            ROUND((25.50 + ((i % 50) * 32.40))::numeric, 2),
+            TIMESTAMP '2026-01-01 08:00:00' + (i * INTERVAL '3 hours'),
+            i
+        );
+    END LOOP;
+END $$;
+
+-- 2. Tabela cartão --
+DO $$
+DECLARE
+    i INT;
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO cartao (numero_cartao, limite_total, data_validade, id_conta)
+        VALUES (
+            '4532' || LPAD(i::text, 12, '0'),
+            ROUND((1000.00 + ((i % 20) * 750.00))::numeric, 2),
+            DATE '2028-01-01' + ((i % 60) * 30),
+            i
+        );
+    END LOOP;
+END $$;
+
+-- 3. Tabela cliente_conta --
+DO $$
+DECLARE
+    i INT;
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO cliente_conta (id_cliente, id_conta)
+        VALUES (
+            i,
+            i
+        );
+    END LOOP;
+END $$;
+
+-- 4. Tabela conta --
+DO $$
+DECLARE
+    i INT;
+    tipos TEXT[] := ARRAY['Corrente', 'Poupanca', 'Salario', 'Investimento'];
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO conta (id_conta, tipo_conta, data_abertura, saldo_atual)
+        VALUES (
+            i,
+            tipos[1 + (i % 4)],
+            DATE '2020-01-01' + (i * 4),
+            ROUND((150.00 + (i * 47.35))::numeric, 2)
+        );
+    END LOOP;
+END $$;
+
+-- 5. Tabela cliente_telefone --
+DO $$
+DECLARE
+    i INT;
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO cliente_telefone (id_cliente, telefone)
+        VALUES (
+            i,
+            '(16) 99' || LPAD(i::text, 3, '0') || '-' || LPAD((1000 + i)::text, 4, '0')
+        );
+    END LOOP;
+END $$;
+
+-- 6. Tabela cliente --
+DO $$
+DECLARE
+    i INT;
+    nomes TEXT[] := ARRAY['Lucas', 'Mariana', 'Pedro', 'Camila', 'Rafael', 'Juliana', 'Bruno', 'Fernanda', 'Gabriel', 'Larissa'];
+    sobrenomes TEXT[] := ARRAY['Silva', 'Santos', 'Oliveira', 'Souza', 'Pereira', 'Costa', 'Rodrigues', 'Almeida', 'Nascimento', 'Lima'];
+    ruas TEXT[] := ARRAY['Rua das Flores', 'Avenida Brasil', 'Rua Major Nicacio', 'Avenida Presidente Vargas', 'Rua Voluntarios da Franca', 'Rua General Carneiro', 'Avenida Alonso y Alonso', 'Rua Tiradentes', 'Rua Campos Salles', 'Avenida Doutor Ismael Alonso'];
+    bairros TEXT[] := ARRAY['Centro', 'Estacao', 'Cidade Nova', 'Sao Jose', 'Jardim Lima', 'Parque Universitario', 'Vila Exposicao', 'Jardim Francano', 'Santo Agostinho', 'Residencial Baldassari'];
+    cidades TEXT[] := ARRAY['Franca', 'Ribeirao Preto', 'Sao Paulo', 'Campinas', 'Batatais', 'Sertaozinho', 'Araraquara', 'Sao Carlos', 'Uberaba', 'Passos'];
+    estados TEXT[] := ARRAY['SP', 'SP', 'SP', 'SP', 'SP', 'SP', 'SP', 'SP', 'MG', 'MG'];
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO cliente (id_cliente, cpf, nome, email, rua, numero, bairro, cidade, estado, cep, id_gerente)
+        VALUES (
+            i,
+            LPAD((10000000000 + i)::text, 11, '0'),
+            nomes[1 + (i % 10)] || ' ' || sobrenomes[1 + ((i / 10) % 10)],
+            'cliente' || i || '@email.com',
+            ruas[1 + (i % 10)],
+            100 + (i % 900),
+            bairros[1 + ((i / 10) % 10)],
+            cidades[1 + (i % 10)],
+            estados[1 + (i % 10)],
+            LPAD((14400000 + i)::text, 8, '0'),
+            1 + (i % 500)
+        );
+    END LOOP;
+END $$;
+
+-- 7. Tabela funcionario --
+DO $$
+DECLARE
+    i INT;
+    nomes TEXT[] := ARRAY['Gabriel', 'Camila', 'Rafael', 'Beatriz', 'Thiago', 'Larissa', 'Felipe', 'Amanda', 'Rodrigo', 'Bruna'];
+    sobrenomes TEXT[] := ARRAY['Martins', 'Ferreira', 'Alves', 'Ribeiro', 'Carvalho', 'Mendes', 'Barbosa', 'Castro', 'Rocha', 'Dias'];
+    cargos TEXT[] := ARRAY['Gerente de Contas', 'Analista Financeiro', 'Atendente', 'Gerente Personalite', 'Supervisor', 'Gerente de Negocios', 'Gerente Geral'];
+BEGIN
+    FOR i IN 11..500 LOOP
+        INSERT INTO funcionario (id_funcionario, nome, cargo)
+        VALUES (
+            i,
+            nomes[1 + (i % 10)] || ' ' || sobrenomes[1 + ((i / 10) % 10)],
+            cargos[1 + (i % 7)]
+        );
+    END LOOP;
+END $$;
