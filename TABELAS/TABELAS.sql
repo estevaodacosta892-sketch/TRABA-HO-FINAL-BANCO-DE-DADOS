@@ -40,8 +40,7 @@ CREATE TABLE conta (
 CREATE TABLE cartao (
   numero_cartao VARCHAR(16) PRIMARY KEY,
   limite_total DECIMAL(10,2) NOT NULL,
-  data_validade DATE NOT NULL,
-  numero_conta INT NOT NULL UNIQUE REFERENCES conta(numero_conta)
+  data_validade DATE NOT NULL
 );
 
 -- 6. Tabela TRANSACAO
@@ -50,4 +49,11 @@ CREATE TABLE transacao (
   valor DECIMAL(10,2) NOT NULL,
   data_hora timestamptz NOT NULL DEFAULT now(),
   numero_conta INT NOT NULL REFERENCES conta(numero_conta)
+);
+
+-- 7. Tabela CLIENTE_CONTA --
+CREATE TABLE conta_cartao (
+  id_conta INT NOT NULL REFERENCES conta(id_conta),
+  numero_cartao VARCHAR(16) NOT NULL REFERENCES cartao(numero_cartao),
+  PRIMARY KEY (id_conta, numero_cartao)
 );
