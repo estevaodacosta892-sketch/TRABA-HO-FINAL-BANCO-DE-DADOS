@@ -12,7 +12,7 @@ Trabalho final banco de dados - Cenario de Saque Bancario
 
 <!-- Imagem de Capa ou Print do Projeto (HTML permite controlar a largura) -->
 <div align="center">
-  <img src="../Banco de Dados/IMAGENS/CAPA.jpeg" alt="#" width="700px">
+  <img src="./IMAGENS/CAPA.jpeg" alt="#" width="700px">
 </div>
 
 ---
@@ -34,34 +34,42 @@ Para resolver isso, o TechBank precisa de um **novo modelo de banco de dados cen
 **3. Imagens para exemplificar o trabalho**
 
 <div align="center">
-  <img src="../Banco de Dados/IMAGENS/TABELA IMG 1.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/TABELA IMG 2.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/INSERT IMG 1.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/INSERT IMG 2.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/SELECT IMG 1.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/SELECT IMG 2.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/SELECT IMG 3.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/UPDATE IMG 1.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/DELETE IMG 1.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/DELETE IMG 2.png" alt="#" width="700px">
-  <img src="../Banco de Dados/IMAGENS/RELATORIO.png" alt="#" width="700px">
+  <img src="./IMAGENS/TABELA_IMG_1.png" alt="#" width="700px">
+  <img src="./IMAGENS/TABELA_IMG_2.png" alt="#" width="700px">
+  <img src="./IMAGENS/INSERT_IMG_1.png" alt="#" width="700px">
+  <img src="./IMAGENS/INSERT_IMG_2.png" alt="#" width="700px">
+  <img src="./IMAGENS/RELATORIO.png" alt="#" width="700px">
+  <img src="./IMAGENS/SELECT_IMG_1.png" alt="#" width="700px">
+  <img src="./IMAGENS/UPDATE_IMG_1.png" alt="#" width="700px">
+  <img src="./IMAGENS/SELECT_IMG_2.png" alt="#" width="700px">
+  <img src="./IMAGENS/SELECT_IMG_3.png" alt="#" width="700px">
+  <img src="./IMAGENS/DELETE_IMG_1.png" alt="#" width="700px">
+  <img src="./IMAGENS/DELETE_IMG_2.png" alt="#" width="700px">
 </div>
----
-
-## 🛠️ Tecnologias Utilizadas
-
-As seguintes ferramentas e linguagens foram usadas na construção do projeto:
-
-* **[PostgreSQL](https://supabase.com/dashboard/org/advpcxzczjsxmsnonjjh)**
-* **[Draw.io](https://app.diagrams.net/#G18u5lHDuasq-yh1RSL8EKZoTsXKG48F1n#%7B%22pageId%22%3A%22YIfysVU_p6m46kOi0jw0%22%7Dhttps://mozilla.org)**
 
 ---
 
 ## 🔗 Links Úteis
 
-* **Modelo Conceitual** [Clique aqui para acessar](https://drive.google.com/file/d/15-JxHKdXTk1SQjiZ509ljs502yfenQ7J/view?usp=sharing)
-* **Modelo Logico** [Clique aqui para acessar](https://drive.google.com/file/d/18u5lHDuasq-yh1RSL8EKZoTsXKG48F1n/view?usp=sharing)
+* **Modelo Conceitual** [Clique aqui para acessar](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&viewer-ui=classic&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Trabalho_final.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D15-JxHKdXTk1SQjiZ509ljs502yfenQ7J%26export%3Ddownload#%7B%22pageId%22%3A%22KPXFbNodsHdi54lVy-Kx%22%7D)
+
+* **Modelo Logico** [Clique aqui para acessar](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&viewer-ui=classic&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Trabalho_final_LOGICO.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18u5lHDuasq-yh1RSL8EKZoTsXKG48F1n%26export%3Ddownload#%7B%22pageId%22%3A%22YIfysVU_p6m46kOi0jw0%22%7D)
+
 * **Modelo Fisico** [Clique aqui para acessar](https://supabase.com/dashboard/org/advpcxzczjsxmsnonjjh)
+
+## 🛠️ Tecnologias Utilizadas
+
+As seguintes ferramentas e linguagens foram usadas na construção do projeto:
+
+* **[PostgreSQL](https://supabase.com/dashboard/org/advpcxzczjsxmsnonjjh)** 
+Para acessar utilize:
+estevaofatecdsm@gmail.com
+Est0502%
+* **[Draw.io](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&viewer-ui=classic&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Trabalho_final_LOGICO.drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18u5lHDuasq-yh1RSL8EKZoTsXKG48F1n%26export%3Ddownload#%7B%22pageId%22%3A%22YIfysVU_p6m46kOi0jw0%22%7D)**
+
+---
+
+
 ---
 
 ## 👨‍💻 Autor
