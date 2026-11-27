@@ -105,37 +105,26 @@ BEGIN
     END LOOP;
 END $$;
 
--- 2. Tabela cartão --
+-- 2. Tabela cartao --
 DO $$
-DECLARE
-    i INT;
 BEGIN
-    FOR i IN 11..500 LOOP
-        INSERT INTO cartao (numero_cartao, limite_total, data_validade, id_conta)
-        VALUES (
-            '4532' || LPAD(i::text, 12, '0'),
-            ROUND((1000.00 + ((i % 20) * 750.00))::numeric, 2),
-            DATE '2028-01-01' + ((i % 60) * 30),
-            i
-        );
-    END LOOP;
+  FOR i IN 1..500 LOOP
+    INSERT INTO cartao (numero_cartao, limite_total, data_validade)
+    VALUES (
+      -- Gera um número de cartão de 16 dígitos único (ex: 4532000000000001 até 0500)
+      '4532' || LPAD(i::text, 12, '0'),
+      
+      -- Gera um limite aleatório entre R$ 500,00 e R$ 15.000,00
+      ROUND((random() * 14500 + 500)::numeric, 2),
+      
+      -- Gera uma data de validade futura (entre 1 e 5 anos a partir de hoje)
+      CURRENT_DATE + (floor(random() * 1460 + 365)::int)
+    )
+    ON CONFLICT (numero_cartao) DO NOTHING;
+  END LOOP;
 END $$;
 
--- 3. Tabela cliente_conta --
-DO $$
-DECLARE
-    i INT;
-BEGIN
-    FOR i IN 11..500 LOOP
-        INSERT INTO cliente_conta (id_cliente, id_conta)
-        VALUES (
-            i,
-            i
-        );
-    END LOOP;
-END $$;
-
--- 4. Tabela conta --
+-- 3. Tabela conta --
 DO $$
 DECLARE
     i INT;
@@ -152,7 +141,7 @@ BEGIN
     END LOOP;
 END $$;
 
--- 5. Tabela cliente_telefone --
+-- 4. Tabela cliente_telefone --
 DO $$
 DECLARE
     i INT;
@@ -166,7 +155,7 @@ BEGIN
     END LOOP;
 END $$;
 
--- 6. Tabela cliente --
+-- 5. Tabela cliente --
 DO $$
 DECLARE
     i INT;
@@ -195,7 +184,7 @@ BEGIN
     END LOOP;
 END $$;
 
--- 7. Tabela funcionario --
+-- 6. Tabela funcionario --
 DO $$
 DECLARE
     i INT;
@@ -212,3 +201,16 @@ BEGIN
         );
     END LOOP;
 END $$;
+
+-- 7. Tabela conta_cartao --
+INSERT INTO conta_cartao (id_conta, numero_cartao)
+SELECT c.id_conta, ca.numero_cartao
+FROM conta c
+CROSS JOIN LATERAL (
+    SELECT numero_cartao 
+    FROM cartao 
+    ORDER BY random() 
+    LIMIT 2 -- Vincula até 2 cartões diferentes por conta para demonstrar o N:N
+) ca
+ON CONFLICT DO NOTHING;
+

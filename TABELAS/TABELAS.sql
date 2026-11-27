@@ -51,7 +51,7 @@ CREATE TABLE transacao (
   numero_conta INT NOT NULL REFERENCES conta(numero_conta)
 );
 
--- 7. Tabela CLIENTE_CONTA --
+-- 7. Tabela CONTA_CARTAO --
 CREATE TABLE conta_cartao (
   id_conta INT NOT NULL REFERENCES conta(id_conta),
   numero_cartao VARCHAR(16) NOT NULL REFERENCES cartao(numero_cartao),
